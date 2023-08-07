@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Photo-Gallery -> Old Royal Castle | 5* Star Hotel &amp; Resort</title>
+	<meta name="author" content="Sujan Aryal" />
+	<meta name="description" content="Web devlopment assignment | Old Royal Castle 5* hotel project" />
+
+
+
+
+
+	<!-- .................................................................................................................... -->
+	                                       		 <!-- Bootstrap min css linked -->
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+	<!-- .................................................................................................................... -->
+
+
+	<!-- .................................................................................................................... -->
+											<!-- custom css for index page | Home page -->
+
+	<link rel="stylesheet" type="text/css" href="css/gallery.css">
+
+	<!-- .................................................................................................................... -->
+
+	<!-- .................................................................................................................... -->
+												<!-- fontawesome for icons -->
+
+	<link href="css/webfonts-css/css/fontawesome-all.css" rel="stylesheet">
+
+	<!-- .................................................................................................................... -->
+		     
+    <!-- .................................................................................................................... -->
+    												<!-- font family linked -->
+
+    	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet"> 
+	
+      <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7cPlayfair+Display:400,700,900" rel="stylesheet">
+
+    <!-- .................................................................................................................... -->
+
+
+   <!-- .................................................................................................................... -->
+							
+	 <!-- .................................................................................................................... -->
+
+
+
+
+
+																
+
+</head>
+<body>			
+
+					<!-- add a div old royal castle website  -->
+
+<div class="site-header"> <!--Top address Container -->
+	<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8"> <!-- hotel info column -->
+						<div class="hotel-info">
+							<div class="Book-time">
+								<i class="far fa-clock"></i>
+									<p> Book Time -<span> 6am to 6pm </span></p>
+										</div> <!-- Book-Time closed -->
+											<div class="Phone">
+												<i class="fas fa-phone-volume"></i> 
+													<p>	call us:<span>033-009-0077</span></p>
+														</div> <!-- Phone Closed -->
+															<div class="Email">
+																<i class="far fa-envelope"></i>
+																	<p>mail@oldrolyalcastle.com</p>
+																		</div> <!-- Email closed -->
+																			</div> <!-- hotel-info closed-->
+																				</div>  <!-- col-md-8 closed -->
+														 
+						
+					<div  class="col-md-4"> <!--  social links column  -->
+						<div class="social-links">
+							<a href="http://www.facebook.com" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+								<a href="http://www.twitter.com" title="Twitter"> <i class="fab fa-twitter"></i></a>
+									<a href="http://www.instagram.com" title="Instagram"> <i class="fab fa-instagram"></i></a>
+										<a href="http://www.pintrest.com" title="Pintrest"><i class="fab fa-pinterest-p"></i></a>
+											<a href="login.html" title="login here"> <i class="fas fa-sign-in-alt"> Log In / 	Register</i></a>
+													</div> <!-- social links closed -->
+														</div> <!-- col-md-4 closed -->
+															</div> <!-- row closed -->
+																</div> <!-- container closed -->
+																	</div> <!-- header-top closed -->
+																		</div> <!-- site header closed -->
+							
+
+<!--  ****************************************            end of site header                       **************************-->
+
+
+<!--  ****************************************       Navigation Menu Responsive                    **************************-->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand logop" href="index.html" title="old rolyal castle">
+     Old Royal Castle
+  </a>
+  
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+							  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+							    <ul class="navbar-nav mr-auto">
+							      <li class="nav-item active">
+							        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link" href="rooms.html">Rooms</a>
+							      </li>
+							      <li class="nav-item dropdown">
+							        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							          Explore Hotel
+							        </a>
+							        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							          <a class="dropdown-item" href="services.html">Services</a>
+							          <a class="dropdown-item" href="dinning.html">Dinning</a>
+							          <div class="dropdown-divider"></div>
+							          <a class="dropdown-item" href="gallery.html">Photo Gallery</a>
+							        </div>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link" href="casino.html">Casino</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link" href="events.html">Events</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link" href="about.html">About </a>
+							      </li>
+							       <li class="nav-item active2">
+							        <a class="nav-link" href="booking.html">Booking</a>
+							      </li>
+
+							    </ul>
+
+
+					    	<!-- Contact Information Inside Modal -->
+
+					    <div class="contactbtn">
+					    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+					  Contact us
+					</button>
+					</div> <!-- contact button div closed -->
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLongTitle">Our Information</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div><!-- modal header closed -->
+
+
+     						 <!-- information inside modal -->
+
+						      <div class="modal-body">
+						  				<img class="modalimg" src="images/logowebsite.jpg" alt="Old Royal Castle">
+
+						      	<p><i class="fas fa-map-marker"></i>ADDRESS:</p>
+
+							<p>Nuwakot, PO Box 00977</p>
+							<p>Kathmandu  Nepal View and Explore</p>
+
+							<p><i class="fas fa-phone-volume"></i>RESERVATIONS: </p>
+							<p>+1 (033) 009-0077 - (US/Canada Toll-free)</p>
+							<p>+1 (033) 5555-5555 - (Asia Toll-free)</p>
+							<p>TELEPHONE: +1 (977-1) 441-1515 </p>
+							<p>FAX: +1 (977-1) 441-1616</p>
+
+							<p><i class="far fa-envelope"></i> Email: mail@oldrolyalcastle.com</p>      
+						      </div> <!-- modal body closed -->
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						      </div><!-- modal footer closed -->
+						    </div> <!-- modal content closed -->
+						  </div><!-- modal dailoge closed -->
+						</div><!-- modal fade modalong closed -->
+						    <form class="form-inline my-2 my-lg-0">
+						      <input class="form-control mr-sm-2" type="search" placeholder="eg: Rooms,dinnings.." aria-label="Search">
+						      <div class="btnicon">
+						      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search btnscr"></i></button>
+							
+						  </div> <!-- btn icon div closed -->
+						    </form> <!-- Search Form closed -->
+						  </div> 
+						</nav> <!-- navigation bar closed -->
+
+<!--  **********************************            End  of Navigation Menu Responsive         **************************-->
+
+<hr/>
+				
+
+				
+							
+													<!-- photo gallery with effects on hover, one slider and video  -->
+
+				<div class="container-fluid">
+
+
+					<h1 class="pa">Old Royal Castle</h1>
+					<h2 class="pa" >Photo Gallery</h2>
+
+
+
+
+				<div class="container gallery-background"> 
+
+					<!-- Wow Image Slider added-->
+					<h2 class="pa" >Explore The Beauty Of Old Royal Castle</h2>
+
+
+
+						
+
+
+
+					<div class="photo-gallery ">
+
+					<div class="row">
+
+						<div class="col-md-4 item zoom-on-hover">
+							<h6 class="h6-text">Click image to See Rooms</h6>
+							<a class="box" href="rooms.html">
+								<img class="img-fluid image" src="images/bedroom10.jpg" title="The Old Royal Bedroom" alt="The Old Royal Bedroom">
+								<span class="description">
+									<span class="des-heading"> Old Royal Beedroom</span>
+									<span class="des-body"> We have best rooms available for you, your family and friends at affordable price. with high speed internt and our hospitality.</span>
+									</span> <!-- span description closed -->
+									</a> <!-- a box closed -->
+									</div>  <!-- col-md-6 item zoom-on-hover closed -->
+
+						
+
+						<div class="col-md-4 item zoom-on-hover">
+							<h6 class="h6-text">Click image to See Dinnings</h6>
+							<a class="box" href="dinning.html">
+								<img class="img-fluid image" src="images/rooftop.jpeg" title="The Royal Garden" alt="The Royal Garden">
+								<span class="description">
+									<span class="des-heading"> The Royal Garden</span>
+									<span class="des-body">Our beautiful Roof Top Royal Garden is perfect place for celebrating, any events big or small while enjoying a magnificinent view of the surrounding mountains.</span>
+									</span> <!-- span description closed -->
+									</a> <!-- a box closed -->
+									</div>  <!-- col-md-6 item zoom-on-hover closed -->
+
+
+						<div class="col-md-4 item zoom-on-hover">
+							<h6 class="h6-text">Click image to See casino</h6>
+							<a class="box" href="casino.html">
+								<img class="img-fluid image" src="images/casino2.jpg" title="The Old Royal Casino" alt="The Old Royal Casino">
+								<span class="description">
+									<span class="des-heading"> The Old Royal Casino </span>
+									<span class="des-body">The game is always on at Old Royal Castle's Casino. Come try your hand on thrilling tables including blackjack, baccarat and poker.</span>
+									</span> <!-- span description closed -->
+									</a> <!-- a box closed -->
+									</div>  <!-- col-md-6 item zoom-on-hover closed -->
+
+								</div> <!-- first row closed -->
+
+								<hr/>
+
+
+								<div class="row">
+
+						<div class="col-md-4 item zoom-on-hover">
+							<h6 class="h6-text">Click image to inlarge</h6>
+							<a class="box" href="images/gym4.jpg">
+								<img class="img-fluid image" src="images/gym4.jpg" title="The Old Royal Gym" alt="The Old Royal Gym">
+								<span class="description">
+									<span class="des-heading">The Royal Gym</span>
+									<span class="des-body"> We have Best Gym in the town experience the quality of Gym with various imported Gym Equipments. We also provide personal fitness trainner and yoga classes.</span>
+									</span> <!-- span description closed -->
+									</a> <!-- a box closed -->
+									</div>  <!-- col-md-6 item zoom-on-hover closed -->
+						
+						<div class="col-md-4 item zoom-on-hover">
+							<h6 class="h6-text">Click image to inlarge</h6>
+							<a class="box" href="images/swimming3.jpg">
+								<img class="img-fluid image" src="images/swimming3.jpg" title="The Royal Swimming Pool" alt="The Royal Swimming Pool">
+								<span class="description">
+									<span class="des-heading"> The Royal Swimming pool</span>
+									<span class="des-body">Our beautiful Roof Top swimming poolRoyal is perfect place for enjoying summer, any pool parties big or small.</span>
+									</span> <!-- span description closed -->
+									</a> <!-- a box closed -->
+									</div>  <!-- col-md-6 item zoom-on-hover closed -->
+
+
+						<div class="col-md-4 item zoom-on-hover">
+							<h6 class="h6-text">Click image to inlarge</h6>
+							<a class="box" href="images/sports7.jpg">
+								<img class="img-fluid image" src="images/sports7.jpg" title="The Old Royal Sport" alt="The Old Royal Sport">
+								<span class="description">
+									<span class="des-heading"> The Old Royal Sport </span>
+									<span class="des-body">The game is always on at Old Royal Castle. Enjoy our 20 acres ground to play various game, eg: golf, badminton, cricket and football. </span>
+									</span> <!-- span description closed -->
+									</a> <!-- a box closed -->
+									</div>  <!-- col-md-6 item zoom-on-hover closed -->
+
+								</div> <!-- second row closed -->
+
+								<hr/>
+
+
+								<div class="row">
+						<div class="col-md-4 item zoom-on-hover">
+							<h6 class="h6-text">Click image to see Services</h6>
+							<a class="box" href="services.html">
+								<img class="img-fluid image" src="images/roomservice.jpg" title="The Old Royal Services" alt="The Old Royal Services">
+								<span class="description">
+									<span class="des-heading"> Old Royal Service</span>
+									<span class="des-body"> We provide 24/7 Services to our customers. Along with help desk feature we collect feedback, issues and general inquiry</span>
+									</span> <!-- span description closed -->
+									</a> <!-- a box closed -->
+									</div>  <!-- col-md-6 item zoom-on-hover closed -->
+
+						<div class="col-md-4 item zoom-on-hover">
+							<h6 class="h6-text">Click image to see About Us</h6>
+							<a class="box" href="about.html">
+								<img class="img-fluid image" src="images/aboutus.jpg" title="The Royal Team, Partners" alt="The Royal Team, Partners">
+								<span class="description">
+									<span class="des-heading"> The Royal Team, Partners</span>
+									<span class="des-body">We have a very strong team members all with their impressive ideas and designs. In addition we are partned with various Known Companies.</span>
+									</span> <!-- span description closed -->
+									</a> <!-- a box closed -->
+									</div>  <!-- col-md-6 item zoom-on-hover closed -->
+
+
+						<div class="col-md-4 item zoom-on-hover">
+							<h6 class="h6-text">Click image to inlarge </h6>
+							<a class="box" href="images/view.jpg">
+								<img class="img-fluid image" src="images/view.jpg" title="The Old Royal Design" alt="The Old Royal Design">
+								<span class="description">
+									<span class="des-heading"> The Old Royal Interior Design </span>
+									<span class="des-body"> We are so curious about traditionl designs. So, we have implimented various traditional looks and Royal Comfort to Satiesfy our customers.</span>
+									</span> <!-- span description closed -->
+									</a> <!-- a box closed -->
+									</div>  <!-- col-md-6 item zoom-on-hover closed -->
+
+								</div> <!-- third row closed -->
+
+								
+
+
+					</div> <!-- photo-gallery closed -->				
+					</div> <!-- container gallery background closed -->
+				</div> <!-- container- fluid closed -->
+
+<hr/>
+
+
+	
+<!-- footer design  -->
+
+<div class="content">
+</div>
+
+<footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="index.html"><img src="images/site-logo.png" class="footer-logo" title="website logo" alt="website logo"></a>
+                    <h6> Old Royal Castle </h6>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Join Us</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="dinning.html">Dinnings</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="help.html">Help desk</a></li>
+                        <li><a href="forums.html">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="http://www.twitter.com" class="twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="http://www.facebook.com" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="http://www.youtube.com" class="youtube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                   <button type="button" class="btn btn-default">Contact us</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2018 Old Royal Castle | Sujan Aryal All Right Reserved </p>
+        </div>
+    </footer>
+
+
+								<!-- 	end of footer design  -->
+
+
+	<!-- .................................................................................................................... -->
+											  	<!-- bootstrap js linked -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+	
+	
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+.container{
+	
+	background-color: #5FBFFF;
+	font-family: 'Lato', cursive;     
+    margin: 10px auto;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-radius: 15px;
+
+    border: 2px dotted black; 
+
+}
+body{
+	background-color: #33C0FF;
+
+
+}
+.info{
+	margin-left: 0px;
+   margin-right: 0px;
+   margin-top: 0px;
+}
+
+.h3{
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+

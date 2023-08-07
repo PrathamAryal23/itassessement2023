@@ -1,0 +1,38 @@
+html
+	section {
+	 border-top: 2px solid gray;
+}
+footer {
+	 color: gray;
+	 border-top: 2px solid gray;
+	 text-align: center;
+}
+header { text-align: center;
+color: blue; }
+footer > h1 {
+	color: gray;
+
+}
+.highlight {
+	 color: #7840FF;
+	 background-color: #DDD;
+	 font-size: 12px;
+	 padding: 3em;
+}
+.highlight:hover{
+	background-color: gray;
+}
+#selectors {
+	 padding: 2em;
+	 border: 1px solid gray;
+	 border-radius: 10px;
+}
+p {
+	color: red;
+}
+.highlight {
+	color: green;
+}
+#intro{
+	color: blue;
+}
